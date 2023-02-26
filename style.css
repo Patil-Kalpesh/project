@@ -1,0 +1,210 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	padding: 0 10%;
+	background-color: rgb(235, 232, 232);
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* header section */
+
+.title h1{
+    text-align: center;
+    font-size: 200px;
+}
+.title p{
+    text-align: center;
+    font-size: 22px;
+}
+.contact{
+	margin-top: 20px;
+}
+.contact form{
+    float:right;
+}
+.contact input{
+	height: 25px;
+}
+.contact span{
+	line-height: 25px;
+}
+button{
+	height:30px;
+	padding:0px 20px;
+	background-color: black;
+	color: aliceblue;
+	transition: all 0.5s;
+}
+button:hover{
+	background-color: aliceblue;
+	color: black;
+	cursor: pointer;
+	
+}
+hr{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+/* navbar section start */
+nav{
+    margin: 25px 0px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    padding:10px 20px;
+    text-transform: uppercase;
+}
+nav ul li:hover{
+	cursor:pointer;
+}
+.active{
+    color: gray;
+}
+
+/* info section start */
+
+.info{
+    background-color: white;
+   display: flex;
+   flex-wrap: wrap;
+}
+p{
+    text-align: justify;
+}
+.info_heading h1{
+	padding-left: 15px;
+	font-size: 20px;
+}
+.info_card{
+    height: 200px;
+    width:33.3%;
+    padding:25px;
+    box-sizing: border-box;
+}
+.info_card img{
+    height:46px;
+    width:46px;
+    margin:5px
+}
+.info_heading{
+    display: flex;
+    align-items: center;
+}
+/* card Section start */
+.card_section{
+    display: flex;
+	justify-content:space-between;
+}
+.card{
+    margin:30px 35px;
+    width: 260px;
+}
+.card img{
+    height: 180px;
+    width: 260px;
+    box-shadow: 0 10px 10px black;
+}
+.card h1{
+    margin:15px 0px;
+	font-size: 20px;
+}
+.card p{
+    text-align: justify;
+    color: rgb(108, 107, 107);
+}
+
+/* footer section start */
+
+footer{
+	display: flex;
+	padding:20px 0
+	}
+
+footer img{
+	height: 80px;
+	width: 80px;
+	float: left;
+	margin: 20px;
+	outline: 5px solid white;
+}
+footer div{
+	width:25%;
+	margin: 0 20px;
+	
+}
+footer h3{
+	color: rgb(138, 137, 137);
+	padding-bottom: 15px;
+	text-transform: capitalize;
+	border-bottom: 1px #000 dotted;
+}
+.project{
+	width: 50%;
+	margin: 0;
+}
+footer li{
+	list-style: none;
+	line-height: 30px;
+	padding-top: 10px;
+}
+.copyright{
+	display: flex;
+	justify-content: space-between;
+}
+.social i{
+	font-size: 20px;
+}
+
+.social i:hover{
+color:blue;
+cursor: pointer;
+}
+.info span{
+	color:red ;
+}
