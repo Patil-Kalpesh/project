@@ -150,7 +150,7 @@ p{
     width: 260px;
     box-shadow: 0 10px 10px black;
 }
-.card h1{
+.card h2{
     margin:15px 0px;
 	font-size: 20px;
 }
@@ -201,7 +201,7 @@ footer li{
 	font-size: 20px;
 }
 
-.social i:hover{
+.social li:hover{
 color:blue;
 cursor: pointer;
 }
